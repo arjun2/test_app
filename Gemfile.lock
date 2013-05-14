@@ -1,3 +1,15 @@
+PATH
+  remote: /Users/as025911/Desktop/github_repos/rails
+  specs:
+    squash_rails (1.1.2)
+      squash_ruby
+
+PATH
+  remote: /Users/as025911/Desktop/github_repos/ruby
+  specs:
+    squash_ruby (1.2.0)
+      json
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -108,4 +120,6 @@ DEPENDENCIES
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   sqlite3
+  squash_rails!
+  squash_ruby!
   uglifier (>= 1.0.3)
